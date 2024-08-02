@@ -1,0 +1,83 @@
+.main {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.JBtn {
+  background: #7952b3;
+  color: white;
+}
+.img img {
+  border-radius: 20px;
+}
+.card img {
+  border-radius: 17px;
+}
+.card {
+  width: 75%;
+}
+.cards {
+  padding-left: 85px;
+}
+.ficon i {
+  border: 1px solid rgb(222, 219, 219);
+  border-radius: 5px;
+  padding: 5px;
+}
+.ficon img {
+  border: 1px solid rgb(222, 219, 219);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.gtouch {
+  border: 1px solid rgb(222, 219, 219);
+  border-radius: 15px;
+}
+a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.fmain {
+  border-bottom: 1px solid rgb(222, 219, 219);
+  padding-bottom: 40px;
+}
+
+/* css for tabs */
+@media (min-width: 600px) and (max-width: 768px) {
+  .buttons {
+    flex-direction: column !important;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+}
+
+/* css for mobile  */
+@media (max-width: 599px) {
+  .buttons {
+    flex-direction: column !important;
+  }
+  .homeimg {
+    margin-left: 0px !important;
+  }
+  .head {
+    flex-direction: column !important;
+  }
+  .hide,
+  .card-img-top {
+    display: none;
+  }
+  .cards {
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  .card {
+    width: 100% !important;
+  }
+  .f-main {
+    flex-direction: column !important;
+  }
+}
